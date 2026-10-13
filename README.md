@@ -32,35 +32,6 @@ This version features a clean design, touchscreen support, and a unique challeng
 - **Editor:** VSCode (development) + Android Studio (build/deploy)
 - **Optional:** SDL_image, SDL_ttf, SDL_mixer
 
----
-
-## 🚀 Getting Started
-
-### 📦 Requirements
-
-- **Ubuntu** (Linux)
-- **Android Studio** with:
-  - Android SDK
-  - Android NDK
-  - CMake
-  - SDK Build Tools
-- **VSCode** (recommended)
-- **SDL2 and extensions**
-
-Install SDL2 libraries on Ubuntu:
-
-```bash
-sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev
-```
-
-## 🛠️ Build Instructions (Native C++ Android)
-
-  - Create a Native C++ project in Android Studio.
-  - Copy your C++ source files and CMakeLists.txt into the project.
-  - Ensure SDL is linked correctly in your CMakeLists.txt.
-  - Build the project (Build > Make Project) and run on a virtual or physical Android device.
-
----
 
 ## 🎮 Game Modes
 
